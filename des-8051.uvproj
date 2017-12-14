@@ -48,7 +48,7 @@
           <OutputName>des-8051</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -318,7 +318,7 @@
             <UseMpl>0</UseMpl>
             <UseStandard>1</UseStandard>
             <UseCase>0</UseCase>
-            <UseMod51>0</UseMod51>
+            <UseMod51>1</UseMod51>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -364,11 +364,6 @@
           <GroupName>Source Group 1</GroupName>
           <Files>
             <File>
-              <FileName>STARTUP.A51</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\STARTUP.A51</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
@@ -377,6 +372,21 @@
               <FileName>des.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\des.c</FilePath>
+            </File>
+            <File>
+              <FileName>defs.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\defs.h</FilePath>
+            </File>
+            <File>
+              <FileName>REG932.H</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\REG932.H</FilePath>
+            </File>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\uart.c</FilePath>
             </File>
           </Files>
         </Group>

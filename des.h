@@ -27,7 +27,7 @@
 /**********************************************************
 *	Types
 **********************************************************/
-static enum{
+enum{
 	ENCRYPT,
 	DECRYPT,
 };
@@ -36,6 +36,8 @@ static enum{
 /**********************************************************
 *	Public Function Headers
 **********************************************************/
+void encrypt_3des(uint8* msg, uint8* key, uint8* output);
+void decrypt_3des(uint8* msg, uint8* key, uint8* output);
 void des(uint8* msg, uint8* key, uint8* output, uint8 type);
 
 

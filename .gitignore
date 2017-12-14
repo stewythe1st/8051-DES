@@ -28,6 +28,9 @@
 *.obj
 *.o
 *.sbr
+Objects/*
+*.exe
+*.out
 
 # Build files
 *.bat
