@@ -56,6 +56,15 @@ Objects/*
 *.sfd
 *.sfr
 
+# LaTeX files
+doc/*.aux
+doc/*.bbl
+doc/*.blg
+doc/*.log
+doc/*.out
+doc/*.bak
+doc/*.synctex.gz
+
 # Miscellaneous
 *.tra
 *.bin
